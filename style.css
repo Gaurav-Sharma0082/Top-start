@@ -662,10 +662,20 @@ section.driving-school {
         height: auto;
     }
     .rating-wrapper {
-        left: 40px;
+        left: 0px;
+        width:auto;
+    }
+    .star-content h3{
+            font-size: 24px;
+    }
+    .star-content p{
+            font-size: 16px;
     }
     .star-content{
-        width: 270px;
+        width: 230px;
+    }
+    .star-icon {
+            left: -40px;
     }
    
     .btn-wrapper button {
@@ -703,4 +713,5 @@ section.driving-school {
     .textarea {
         width: 80%;
     }
+    
 }
